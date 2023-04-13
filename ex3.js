@@ -20,8 +20,9 @@
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<=muchos_peces.length; i++) {
+for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 }
 
+// Porque i es igual o más pequeño que muchos_peces.length, y debería ser solo más pequeño que, ya que hay 4 peces pero empezando por 0, es decir, 0, 1, 2, 3, y i tiene que ser más pequeña que 4 (3), no igual.
